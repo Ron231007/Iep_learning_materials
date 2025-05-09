@@ -10,7 +10,7 @@ int main()
     int average, sum =0,num_count =0, choice =0;
 
     while(true){
-        cout<<"Pls enter a positive integer or -1 to quit";               
+        cout<<"Pls enter a positive integer or -1 to quit: ";               
         cin >> choice;
 
         if(choice <=0) break;                                     //notice this is the condition rather than while(choice <=0).
@@ -21,6 +21,14 @@ int main()
         num_count++;
         
     }
+
+    // while(choice>=0)                                                  //wrong while loop
+    // {
+    //     cout<<"Pls enter a positive integer or -1 to quit: ";               
+    //     cin >> choice;
+    //     sum += choice;
+    //     num_count++;
+    // }
 
     if(sum >0) average = sum/(num_count);
 
