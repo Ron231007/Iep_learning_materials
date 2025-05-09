@@ -17,11 +17,12 @@ int main(){
         cout<<i;                    //prints 9 to 1 
     }
     int j =0;
+    
     for(j=0; j<10;j++)
     {
-        cout<<j;                    //prints 9 to 1 
+        cout<<j;                    //prints 0 to 9
     }
-    cout<<j;                        //notice j is 0 not 1
+    cout<<j;                        //notice j is 10 not 9
 
     //loop through an array
     int arr[] = {1,2,3,4,5,6,7,8,9};
