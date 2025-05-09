@@ -9,15 +9,17 @@ void funtion_name(parameter_type parameter_name)
 ensure ur "void" and return value matches
 ie. if it is int den u need to return (int) and so on
 
-while loops: will exit the loop once the condition is no longer true ie. false. Do note that the conditio after the loop will be one iteration after the while loop suppose to exit
+while loops: will exit the loop once the condition is no longer true ie. false. Do note that the condition after the loop 
+will be one iteration after the while loop suppose to exit
 --> its needs meet the condition to know it has to break the while loop
    -->this may cause some unwanted problems, u may consider how it is written in the file while.cpp
+
 while(conditions)
 {
   code
 }
 
-do-while loop: execute the code at least once
+do-while loop: execute the code at least once even if the condition is not met
 do{
     code
 }while(condition);
@@ -59,7 +61,8 @@ arr[1] =2;
 
 to loop through arr
 
-for(int i =0;i<sizeof(arr)/sizeof(arr[0];i++)
+int length = sizeof(arr)/sizeof(arr[0]);
+for(int i =0;i<length;i++)
 {
   cout<<arr[i]<<" ";
 }
