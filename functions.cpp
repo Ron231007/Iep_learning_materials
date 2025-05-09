@@ -17,14 +17,25 @@ int sum(int a, int b);
 void print_global_i_value();
 void print_local_i_value();
 int pass_by_value(int i);
+void increment_global_variable();
 
 int main(){
     
     int i =2;
-    cout<<"i value increment by function: "<<pass_by_value(i)<<endl;
-    cout<<"i local value in main function: "<<i<<endl;
     print_global_i_value();
     print_local_i_value();
+    cout<<"i local value in main function: "<<i<<endl;
+    cout<<"i value increment by function: "<<pass_by_value(i)<<endl;
+    cout<<"Noticed that the value for i declared in main is still "<<i<<" and not 3";
+    cout<<"\nFor global variables, if a function changes the value stored in the variable, the value of the variable changes when accessed in all other functions.\n";
+    increment_global_variable();
+    
+    cout<<"To access global variable value, u can add :: infront of the variable like this ::i.\ni global variable value is "<<::i<<" and not 0";
+    
+    ::i++;
+
+    
+    
 
 
     
@@ -56,4 +67,10 @@ void print_local_i_value()
 int pass_by_value(int i){
     i++;
     return i;
+}
+
+void increment_global_variable()
+{
+    i++;
+    return;
 }
