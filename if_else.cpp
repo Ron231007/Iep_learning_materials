@@ -61,6 +61,29 @@ void processUser(string name, int age, bool isVerified) {
 
 }
 
+
+#include <iostream>
+using namespace std;
+
+void FizzBuzz(int n)
+{
+    for(int i =1; i<=n; i++)
+    {
+        /*if(i % 3 ==0 && i % 5 ==0) cout<<"FizzBuzz\n";
+        else if(i % 3 ==0) cout<<"Fizz\n";
+        else if(i % 5 == 0) cout<<"Buzz\n";
+        else cout<<i<<endl;*/
+        
+        if(i % 3 !=0 && i % 5 !=0) cout<<i;
+        if(i % 3 ==0) cout<<"Fizz";
+        if (i % 5 ==0) cout<<"Buzz";
+        
+        cout<<endl;
+        
+    }
+}
+
+
 int main(){
     processUser("John",20,true);
 }
