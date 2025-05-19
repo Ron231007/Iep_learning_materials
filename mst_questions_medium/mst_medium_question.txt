@@ -20,17 +20,6 @@ if a user enters an invalid number, do not ask for n
 simply print "Invalid choice" 
 Print the menu with only one line
 
-For this problem, when defining all ur switch cases, make sure to add {} to avoid problems for syntax
-so it would look like switch(condition)
-                        {
-                            case 1:
-                            {
-                                ....
-                                break;
-                            }
-                            ...
-                        
-                        }
 Q2.Consider the following code
 
 #include <iostream>
