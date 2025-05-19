@@ -7,6 +7,33 @@ round any floating point numbers to 2dp
 int should appaear as int without decimal point
 ie. if int ==5, 5 shd be displayed and not 5.00
 
+Example Output:
+Case 1:
+Enter an integer or -1 to calculate average: 1
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 4
+Enter an integer or -1 to calculate average: -1
+Average is 2.67
+
+Case 2:
+Enter an integer or -1 to calculate average: 1
+Enter an integer or -1 to calculate average: 3
+Enter an integer or -1 to calculate average: 5
+Enter an integer or -1 to calculate average: 7
+Enter an integer or -1 to calculate average: 9
+Enter an integer or -1 to calculate average: -1
+Average is 0
+
+Case 3:
+Enter an integer or -1 to calculate average: 1
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: -1
+Average is 2
+
+
 Q2.Consider the following code
 
 #include <iostream>

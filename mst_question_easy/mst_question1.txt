@@ -1,11 +1,38 @@
 Q1.Goal: find average of all the even integers keyed in.
 Users will key in only integers greater than 0 one at a time
 users should key in -1 to exit
-You should print Average is 0 if no even positive integer is keyed in  
+You should print "Average is 0" if no even positive integer is keyed in  
 
 Round all outputs to 2dp 
 
+example output:
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 3
+Enter an integer or -1 to calculate average: 5
+Enter an integer or -1 to calculate average: 6
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 1
+Enter an integer or -1 to calculate average: -1
+Average is 2.80
 
+Case 2:
+Enter an integer or -1 to calculate average: 1
+Enter an integer or -1 to calculate average: 3
+Enter an integer or -1 to calculate average: 5
+Enter an integer or -1 to calculate average: 7
+Enter an integer or -1 to calculate average: 9
+Enter an integer or -1 to calculate average: -1
+Average is 0.00
+
+Case 3:
+Enter an integer or -1 to calculate average: 1
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: 2
+Enter an integer or -1 to calculate average: -1
+Average is 2.00
 
 Q2.Consider the following code
 
